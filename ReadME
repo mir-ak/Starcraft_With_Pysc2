@@ -1,0 +1,8 @@
+il faut installer pysc2 
+cmd version 1
+python3 -m pysc2.bin.agent --map Simple64 --agent terran_agent_V1.SimpleAgent --agent_race terran --use_feature_units
+cmd version 2
+python3 -m pysc2.bin.agent --map Simple64 --agent terran_agent_V2.SimpleAgent --agent_race terran --use_feature_units
+ou bien
+V1 ==> python3 le terran_agent_V1.py
+V2 ==> python3 le terran_agent_V2.py
